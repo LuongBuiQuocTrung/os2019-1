@@ -1,0 +1,14 @@
+trung@trung-VirtualBox:~$ grep systemd /proc/sched_debug | head
+ S        systemd     1       678.267884      4779   120         0.000000      1709.640131         0.000000 0 0 /autogroup-2
+ Ssystemd-journal   283       134.564238      1961   119         0.000000       307.010154         0.000000 0 0 /autogroup-6
+ Ssystemd-resolve   370       108.787125       356   120         0.000000       137.654801         0.000000 0 0 /autogroup-27
+ S systemd-logind   579        86.497933      1121   120         0.000000       118.465243         0.000000 0 0 /autogroup-40
+ S  systemd-udevd  3030      1270.378469         1   120         0.000000         1.067848         0.000000 0 0 /autogroup-17
+ S  systemd-udevd   309      1487.836062      3147   120         0.000000      1416.673213         0.000000 0 0 /autogroup-17
+ Ssystemd-timesyn   563        10.858153        81   120         0.000000        49.766625         0.000000 0 0 /autogroup-32
+ S        systemd  1765        96.774293       360   120         0.000000       191.541010         0.000000 0 0 /autogroup-106
+trung@trung-VirtualBox:~$ grep switch /proc/1765/sched
+nr_switches                                  :                  361
+nr_voluntary_switches                        :                  151
+nr_involuntary_switches                      :                  210
+
