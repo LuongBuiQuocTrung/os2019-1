@@ -1,0 +1,14 @@
+trung@trung-VirtualBox:~$ ps aux | grep -i firefox
+trung     4375  7.5 13.3 2210168 302884 tty2   Sl+  10:50   0:23 /usr/lib/firefox/firefox -new-window
+trung     4475  1.3  5.9 1408416 134888 tty2   Sl+  10:50   0:04 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 174338 -parentBuildID 20190410124846 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 4375 true tab
+trung     4571  0.3  4.5 1355404 104388 tty2   Sl+  10:50   0:01 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 5408 -prefMapSize 174338 -parentBuildID 20190410124846 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 4375 true tab
+trung     4688  2.2  7.2 1417432 164564 tty2   Sl+  10:51   0:06 /usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 6381 -prefMapSize 174338 -parentBuildID 20190410124846 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 4375 true tab
+trung     4716  0.1  4.4 1346108 101180 tty2   Sl+  10:51   0:00 /usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 7352 -prefMapSize 174338 -parentBuildID 20190410124846 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 4375 true tab
+trung     5196 33.0  3.4 1339036 78392 tty2    Sl+  10:55   0:00 /usr/lib/firefox/firefox -contentproc -childID 7 -isForBrowser -prefsLen 8286 -prefMapSize 174338 -parentBuildID 20190410124846 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 4375 true tab
+trung     5224  0.0  0.0  20468   912 pts/0    S+   10:55   0:00 grep --color=auto -i firefox
+trung@trung-VirtualBox:~$ ps -o nlwp 4475
+NLWP
+  20
+trung@trung-VirtualBox:~$ 
+
+
